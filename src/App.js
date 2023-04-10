@@ -7,12 +7,12 @@ function App() {
       <div className="container">
         <Weather />
         <footer>
-          This project was coded by {""}
-          <a href="" target="_blank" rel="noref">
+          This project was coded by{" "}
+          <a href=" " target="_blank" rel="noreferrer">
             Viviana Milone
-          </a>
-          {""}and is{""}
-          <a href="" target="_blank" rel="noref">
+          </a>{" "}
+          and is{" "}
+          <a href="" target="_blank" rel="noreferrer">
             open-sourced on Github
           </a>
         </footer>
