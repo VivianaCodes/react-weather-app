@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="Naples" />
         <footer>
           This project was coded by{" "}
           <a href=" " target="_blank" rel="noreferrer">
