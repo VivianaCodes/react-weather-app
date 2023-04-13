@@ -17,8 +17,7 @@ export default function Weather(props) {
       name: response.data.name,
       description: response.data.weather[0].description,
       date: new Date(response.data.dt * 1000),
-      iconUrl:
-        "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png",
+      iconUrl: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
     });
     setReady(true);
   }
