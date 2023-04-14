@@ -1,11 +1,16 @@
 .Weather {
   background-color: #ace4e0;
-  border: 1px solid #74d3cd;
+  border: 1px solid #64aea9;
   border-radius: 15px;
   padding: 16px;
 }
 .Weather form {
   margin-bottom: 20px;
+}
+.Weather .btn {
+  background-color: #74d3cd;
+  border: 1px solid #74d3cd;
+  color: black;
 }
 .Weather h1 {
   font-size: 24px;
@@ -19,10 +24,8 @@
   font-size: 16px;
   list-style: none;
 }
-.Weather img {
-  height: 64px;
-  width: 64px;
-  margin-right: 10px;
+.Weather canvas {
+  margin-top: 7px;
 }
 .Weather .temperature {
   font-weight: 400;
